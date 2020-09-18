@@ -449,7 +449,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p><strong>URL</strong>: <a href="https://github.com/linux-test-project/ltp/" class="bare">https://github.com/linux-test-project/ltp/</a></p>
 </div>
 <div class="paragraph">
-<p><strong>Version</strong>: 20200515-329-gd44a590a7</p>
+<p><strong>Version</strong>: 20200515-329-gd4d12dbc5</p>
 </div>
 <div class="paragraph">
 <p><strong>Default timeout</strong>: 300 seconds</p>
@@ -3337,14 +3337,26 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p><a href="https://github.com/linux-test-project/ltp/tree/master/testcases/kernel/syscalls/abort/abort01.c">source</a></p>
 </div>
 <div class="paragraph">
-<p><strong>DESCRIPTION</strong>
-Checks that process which called abort() gets killed by SIGIOT and dumps core.</p>
+<p><strong>DESCRIPTION</strong></p>
 </div>
 <div class="paragraph">
-<p><strong>ALGORITHM</strong>
-- Fork child.
-- Child calls abort.
-- Parent checks return status.</p>
+<p>Checks that process which called abort() gets killed by SIGIOT and dumps core.</p>
+</div>
+<div class="paragraph">
+<p><strong>ALGORITHM</strong></p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Fork child.</p>
+</li>
+<li>
+<p>Child calls abort.</p>
+</li>
+<li>
+<p>Parent checks return status.</p>
+</li>
+</ul>
 </div>
 <div class="paragraph">
 <p>Test timeout defaults to 300 seconds</p>
@@ -3403,8 +3415,10 @@ Checks that process which called abort() gets killed by SIGIOT and dumps core.</
 <p><a href="https://github.com/linux-test-project/ltp/tree/master/testcases/kernel/syscalls/accept/accept01.c">source</a></p>
 </div>
 <div class="paragraph">
-<p><strong>DESCRIPTION</strong>
-Verify that accept() returns the proper errno for various failure cases.</p>
+<p><strong>DESCRIPTION</strong></p>
+</div>
+<div class="paragraph">
+<p>Verify that accept() returns the proper errno for various failure cases.</p>
 </div>
 <div class="paragraph">
 <p>Test timeout defaults to 300 seconds</p>
@@ -3764,8 +3778,10 @@ if it does not succeed!</p>
 <p><a href="https://github.com/linux-test-project/ltp/tree/master/testcases/kernel/syscalls/acct/acct01.c">source</a></p>
 </div>
 <div class="paragraph">
-<p><strong>DOCUMENTATION</strong>
-Verify that acct() returns proper errno on failure.</p>
+<p><strong>DOCUMENTATION</strong></p>
+</div>
+<div class="paragraph">
+<p>Verify that acct() returns proper errno on failure.</p>
 </div>
 <div class="paragraph">
 <p>Test timeout defaults to 300 seconds</p>
@@ -17049,7 +17065,7 @@ is reached.</p>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">.options</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">ARRAY(0x564208780688)</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">ARRAY(0x5590f11e5b20)</p></td>
 </tr>
 </tbody>
 </table>
@@ -40323,7 +40339,7 @@ is reached.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2020-09-17 17:21:57 +0200
+Last updated 2020-09-18 13:16:57 +0200
 </div>
 </div>
 </body>
